@@ -1,3 +1,7 @@
+:root {
+	--black: #000000;
+	
+}
 * {
     box-sizing: border-box;
     padding: 0;
@@ -58,7 +62,7 @@ p {
 /*Styles the fig/hero section*/
 .hero {
     height: 250px;
-    width: 100%;
+    /*width: 100%;*/
     margin-bottom: 25px;
     background-image: url("../images/Design-App.jpg");
     background-size: cover;
@@ -105,4 +109,14 @@ aside h2 {
 	border-width: 0 0 0 5px;
 	border-color: blue;
 	
+}
+
+.contentSections ul {
+    list-style-type: none;
+}
+
+.contentSections ul li {
+    display: inline-block;
+    margin-left: 25px;
+	font-size: 20px;
 }
