@@ -64,13 +64,20 @@ p {
 /* Styles the aside*/
 aside {
    font-size: 50px;
-   border-style: solid;
-   border-width: 0 5px 0 0;
-   border-color: blue;
    margin-right: 20px;
    padding: 20px;
    clear: both;
    float: left;
    width: 20%;
    height: 100%;
+}
+
+.content {
+  border-style: solid;
+  border-width: 0 5px 0 0;
+  border-color: blue;
+}
+
+.contentSections {
+	
 }
