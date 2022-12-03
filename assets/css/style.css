@@ -57,10 +57,10 @@ p {
 
 /*Styles the fig/hero section*/
 .hero {
-    height: 800px;
+    height: 250px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(".assets/images/Design-App.jpg");
+    background-image: url("../images/Design-App.jpg");
     background-size: cover;
     background-position: center;
 }
