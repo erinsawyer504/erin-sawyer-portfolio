@@ -97,10 +97,10 @@ aside h2 {
 .content {
 	width: 75%;
   	display: inline-block;
- 	margin-left: 20px;
+ 	margin-left: 20px;	
 }
 
-.contentSections {
+main section {
 	margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -111,14 +111,37 @@ aside h2 {
 	border-width: 0 0 0 5px;
 	border-color: var(--darkblue);
 	box-shadow: 10px 10px 5px var(--darkblue);
+}
+
+.workProjects {
+	height: 800px;
+	color: black;	
+}
+
+#horiseon {
+	display: inline-block;
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#horiseon img {
+	height: 400px;
+	width: 300px;
 	
 }
 
-.contentSections ul {
+main section  h3 {
+	padding-top: 20px;
+	padding: 10px;
+}
+
+main section ul {
     list-style-type: none;
 }
 
-.contentSections ul li {
+main section ul li {
     display: inline-block;
     margin-left: 25px;
 	font-size: 20px;
