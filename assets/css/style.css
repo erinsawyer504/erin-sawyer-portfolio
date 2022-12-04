@@ -64,7 +64,7 @@ p {
 /*Styles the fig/hero section*/
 .hero {
     height: 250px;
-    /*width: 100%;*/
+    width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/Design-App.jpg");
     background-size: cover;
@@ -110,6 +110,7 @@ aside h2 {
 	border-style: solid;
 	border-width: 0 0 0 5px;
 	border-color: var(--darkblue);
+	box-shadow: 10px 10px 5px var(--darkblue);
 	
 }
 
