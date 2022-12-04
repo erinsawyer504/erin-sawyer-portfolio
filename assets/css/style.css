@@ -40,7 +40,6 @@ header nav {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    float: right;
 }
 
 header nav ul {
@@ -71,13 +70,6 @@ p {
     background-position: center;
 }
 
-/* styles personal headshot */
-.erinpic {
-    border-radius: 100%;
-    height: 200px;
-    width: 200px;
-}
-
 /* Styles the aside*/
 aside {
    font-size: 50px;
@@ -92,14 +84,19 @@ aside {
 aside h2 {
 	font-size: 30px;
 	text-align: right;
+	color: var(--darkblue);
 }
 
-.content {
-	width: 75%;
-  	display: inline-block;
- 	margin-left: 20px;	
+#work {
+	margin-top: 300px;
 }
 
+#contactMe {
+	margin-top: 775px;	
+}
+
+
+/*Styles the main content section*/
 main section {
 	margin-bottom: 20px;
     padding: 50px;
@@ -111,6 +108,26 @@ main section {
 	border-width: 0 0 0 5px;
 	border-color: var(--darkblue);
 	box-shadow: 10px 10px 5px var(--darkblue);
+}
+
+/* styles personal headshot */
+.erinpic {
+    float: left;
+	border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+main p {
+	float: left;
+	margin: 50px 0 0 35px;
+	line-height: 25px;
+	font-size: 20px;
+}
+
+.content {
+	width: 75%;
+  	display: inline-block;
+ 	margin-left: 20px;	
 }
 
 .workProjects {
@@ -153,15 +170,7 @@ main section  h3 {
 	width: 400px;
 }
 
-.float-center-top {
-	display: inline-block;
-	margin-right: 200px;
-}
-
-.float-center-mid {
-	display: inline-block;
-}
-
+/* Styles the contact me section in the main */
 main section ul {
     list-style-type: none;
 }
