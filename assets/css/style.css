@@ -28,7 +28,7 @@ header h1 {
     display: inline-block;
     font-size: 48px;
     background-color: var(--medblue);
-    color: #ffffff;
+    color: white;
 	padding: 10px 20px 10px 60px;
 }
 
@@ -118,23 +118,48 @@ main section {
 	color: black;	
 }
 
-#horiseon {
-	display: inline-block;
+*#horiseon {
+	/*display: inline-block;*/
+	float: left;
 	background-color: white;
-	padding: 20px;
+	padding: 0 0 20px 0;
 	text-align: center;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #horiseon img {
-	height: 400px;
-	width: 300px;
-	
+	height: 550px;
+	width: 350px;
 }
 
 main section  h3 {
 	padding-top: 20px;
 	padding: 10px;
+}
+
+.otherProjects {
+	/*display: inline-block;*/
+	float: left;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	background-color: white;
+	padding: 0px;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.otherProjects img{
+	height: 100px;
+	width: 400px;
+}
+
+.float-center-top {
+	display: inline-block;
+	margin-right: 200px;
+}
+
+.float-center-mid {
+	display: inline-block;
 }
 
 main section ul {
