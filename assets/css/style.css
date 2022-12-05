@@ -116,6 +116,7 @@ main section {
 	border-radius: 100%;
     height: 200px;
     width: 200px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 main p {
 	float: left;
@@ -141,6 +142,7 @@ main p {
 	background-color: white;
 	padding: 0 0 20px 0;
 	text-align: center;
+	border-color: none;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -168,6 +170,11 @@ main section  h3 {
 .otherProjects img{
 	height: 100px;
 	width: 400px;
+}
+
+/*adds a border around the div when cursor hovers over it */
+#horiseon:hover, .otherProjects:hover {
+	background: var(--ltblue);
 }
 
 /* Styles the contact me section in the main */
