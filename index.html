@@ -2,7 +2,7 @@
 <html lang="en-us">
 
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
         <title>Erin Sawyer Portfolio</title>
     </head>
@@ -28,29 +28,16 @@
         
         <!--The figure will show the giant banner after the header-->
         <figure class="hero"></figure>
-               
-        <!--This is the side topics section-->
-        <aside>
-            <section id="aboutMe">
-                <h2>About Me</h2>
-            </section>
-            <section id="work">
-                <h2>Work</h2>
-            </section>
-            <section id="contactMe">
-                <h2>Contact Me</h2>
-            </section>
-        </aside>
         
         <!--This is the main Content section-->
         <main class ="content">
-            <section>
-                <img src="./assets/images/erinPic.jpg" alt="headshot of Erin" class="erinpic">
-				<p>I am a former educator, IT help desk agent, technical trainer, and instructional designer turned beginner coding enthusiast.<br>
-					I enjoy learning new coding languages, graphical design, and of course all things cat related.<br>
-					Currently, I am learning HTML, CSS, and JavaScript.</p>
-            </section>
-            <section class="workProjects">
+			 <section class="aboutMeContainer">
+				<h2 id="aboutMe">About Me</h2>
+				<p>I am a former educator, IT help desk agent, technical trainer, and instructional designer turned beginner coding enthusiast. I enjoy learning new coding languages, graphical design, and of course all things cat related. Currently, I am learning HTML, CSS, and JavaScript.</p>
+				 <p><img src="./assets/images/erinPic.jpg" alt="headshot of Erin" ID="profilePic"></p>
+			</section>
+            <section class="workContainer">
+				<h2 id="work">Work</h2>
 				<div id="horiseon">
 					<a href="https://github.com/erinsawyer504/horiseon-services"><img src="./assets/images/horiseon-services-website-screenshot.PNG" alt="Screenshot of horiseon project"></a>
 					<h3>Horiseon Refactor</h3>
@@ -64,18 +51,11 @@
 					<h3>Coding Quiz</h3>
 				</div>
             </section>
-            <section id="contactContent">
-                <ul>
-                    <li>
-                        <a href="mailto:erinsawyer504@gmail.com">📧 erinsawyer504@gmail.com</a>
-                    </li>
-                    <li>
-                        <a href="tel:8644147960">📞 864-414-7960</a>
-                    </li>
-                    <li>
-						<a href="https://github.com/erinsawyer504" target="_blank" rel="noopener noreferrer">💻GitHub</a>
-                    </li>
-                </ul>
+            <section class="contactContainer">
+				<h2 id="contactMe">Contact Me</h2>
+                <h3><a href="mailto:erinsawyer504@gmail.com">📧 erinsawyer504@gmail.com</a></h3>
+				<h3><a href="tel:8644147960">📞 864-414-7960</a></h3>
+				<h3><a href="https://github.com/erinsawyer504" target="_blank" rel="noopener noreferrer">💻GitHub</a></h3>
             </section>
         </main>
             <!--The is the footer section-->
